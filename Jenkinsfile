@@ -4,7 +4,7 @@
 
 @library('shared-library@master') _
 
-withCredentials([usernamePassword(credentialsId: 'jenkins', passwordVariable: 'test-password', usernameVariable: 'test-username')]) {
+withCredentials([usernamePassword(credentialsId: 'Jenkins', passwordVariable: 'test-password', usernameVariable: 'test-username')]) {
     reactbaseBuild {
    	appName = "vinodjuly10/node"
         buildType = "react"

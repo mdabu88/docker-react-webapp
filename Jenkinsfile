@@ -2,9 +2,9 @@
 //retriever: modernSCM([$class: 'GitSCMSource', remote: 'https://github.com/vin0thramamoorthy/shared-library.git'])
 //simplePipeline()
 
-@Library('shared-library@master') _
+@library('shared-library@master') _
 
-withCredentials([usernamePassword(credentialsId: 'jenkins', passwordVariable: 'react-password', usernameVariable: 'react-username')]) {
+withCredentials([usernamePassword(credentialsId: 'Jenkins', passwordVariable: 'test-password', usernameVariable: 'test-username')]) {
     reactbaseBuild {
    	appName = "vinodjuly10/node"
         buildType = "react"

@@ -1,8 +1,8 @@
-@Library('shared-library@master') _
+@library('shared-library@master') _
 
-withCredentials([usernamePassword(credentialsId: 'jenkins', passwordVariable: 'react-password', usernameVariable: 'react-username')]) {
+withCredentials([usernamePassword(credentialsId: 'Jenkins', passwordVariable: 'test-password', usernameVariable: 'test-username')]) {
     reactbaseBuild {
-   	appName = "vinodjuly10/node"
+   	appName = "docker-react-webapp"
         buildType = "react"
         deployType = "helm-service"
     }

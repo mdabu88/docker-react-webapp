@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vin0thramamoorthy/docker-react-webapp.git"
+    "url": "git+https://github.com/mdabu88/docker-react-webapp.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vin0thramamoorthy/docker-react-webapp/issues"
+    "url": "https://github.com/mdabu88/docker-react-webapp/issues"
   },
-  "homepage": "https://github.com/vin0thramamoorthy/docker-react-webapp#readme",
+  "homepage": "https://github.com/mdabu88/docker-react-webapp#readme",
   "dependencies": {
     "express": "^4.17.1"
   }

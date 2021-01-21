@@ -1,4 +1,4 @@
-@library('shared-library@master') _
+@Library('library@master') _
 
 withCredentials([usernamePassword(credentialsId: 'Jenkins', passwordVariable: 'test-password', usernameVariable: 'test-username')]) {
        buildPipeline {
